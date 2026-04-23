@@ -52,6 +52,9 @@ Black: #000000 (Black)
 */
 
 /* ----------------------- GLOBAL STYLES ----------------------- */
+
+  /* --- universal selector here later ---   */
+
 body{
   font-family: poppins, sans-serif;
   font-weight: 400;
@@ -70,7 +73,8 @@ h1, h2, h3, h4, h5{
 
 h1{
 
-  font-size: 62px;
+  font-size: 62px; 
+  
 }
 
 h2{
@@ -117,12 +121,13 @@ ul{
   
 }
 
+
 /* ----------------------- COMPONENTS ----------------------- */
 .btn{
   font-weight: 400;
   font-family: poppins, sans-serif;
   font-size: 16px;
-  text-decoration: none;
+  text-decoration: none;  
 
 }
 
@@ -146,7 +151,29 @@ ul{
   background-color: #7048e8;
   color: white;
 }
- 
+
+.highlight{
+  color: white;
+}
+.highlight-primary{
+  background-color: #339af0;
+}
+
+.highlight-secondary{
+  background-color: #9775fa;
+}
+
+.highlight-tertiary{
+  background-color: #ff922b;
+}
+
+.logo-md{
+  width: 100px;
+}
+
+.logo-sm{
+  width: 80px;
+}
 
 /* ----------------------- SECTIONS ----------------------- */
 
@@ -156,16 +183,30 @@ ul{
   text-align: center;
 }
 
+
+
 /* ------ FEATURE SECTION ------ */
 
 .features-main-heading{
   text-align: center;
 }
 
+.feature-img{
+  width: 400px;
+}
+
 /* ------ CTA SECTION ------ */
 
 .cta-section{
+
+}
+
+.cta-card{
+  background-color: #339af0 ;
+  width: 1000px;
   text-align: center;
+  
+
 }
 
 /* ------ FOOTER SECTION ------ */
@@ -173,9 +214,9 @@ ul{
   text-align: center;
 }
 
-
-
-
+.social-icons{
+  width:20px
+}
 
 
 
