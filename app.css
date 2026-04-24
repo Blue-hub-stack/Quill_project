@@ -54,6 +54,9 @@ Black: #000000 (Black)
 /* ----------------------- GLOBAL STYLES ----------------------- */
 
   /* --- universal selector here later ---   */
+*{
+  box-sizing: border-box;
+}
 
 body{
   font-family: poppins, sans-serif;
@@ -109,6 +112,7 @@ p{
 a{
   text-decoration: none;
   font-size: 16px;
+
 }
 
 
@@ -127,33 +131,64 @@ ul{
   font-weight: 400;
   font-family: poppins, sans-serif;
   font-size: 16px;
-  text-decoration: none;  
+  text-decoration: none; 
+  padding: 15px 30px;
+  border-radius: 8px;
 
+ /*--Random shit--*/
+  display: inline-block;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  width: 120px;
+  
+ 
 }
 
 .btn-primary:link, .btn-primary:visited{
   background-color: #339af0;
-  color: white; 
+  color: white;
+  border: 2px solid #339af0; 
+
 }
 
 .btn-primary:hover, .btn-primary:active{
   background-color: #1c7ed6;
   color: white;
+  border: 2px solid #1c7ed6;
+}
+
+.btn-primary-outline:link, .btn-primary-outline:visited{
+  color: #339af0;
+  background-color: white; 
+  border: 2px solid #339af0;
+}
+
+.btn-primary-outline:hover, .btn-primary-outline:active{
+  color: #1c7ed6;
+  background-color: white;
+  border: 2px solid #1c7ed6;
 }
 
 .btn-secondary:link, .btn-secondary:visited{
   background-color: #9775fa;
   color: white;
+  border: 2px solid #9775fa;
 
 }
 
 .btn-secondary:hover, .btn-secondary:active{
   background-color: #7048e8;
   color: white;
+  border: 2px solid #7048e8;
 }
 
 .highlight{
   color: white;
+  padding: 5px 10px;
+  border-radius: 4px;
+
+ 
+ 
 }
 .highlight-primary{
   background-color: #339af0;
@@ -177,18 +212,33 @@ ul{
 
 /* ----------------------- SECTIONS ----------------------- */
 
+/* ------ NAV BAR ------ */
+.navbar{
+  margin-bottom: 200px;
+}
 /* ------ HERO SECTION ------ */
 
 .hero-section{
   text-align: center;
+  margin-bottom: 300px;
 }
 
+.hero-heading{
+  margin-bottom: 10px;
+}
 
+.hero-paragraph{
+  margin-bottom: 50px;
+}
 
 /* ------ FEATURE SECTION ------ */
-
+.features-section{
+  margin-bottom: 300px;
+}
+  
 .features-main-heading{
   text-align: center;
+  margin-bottom: 80px;
 }
 
 .feature-img{
@@ -198,13 +248,15 @@ ul{
 /* ------ CTA SECTION ------ */
 
 .cta-section{
-
+  margin-bottom: 300px;
 }
 
 .cta-card{
   background-color: #339af0 ;
   width: 1000px;
   text-align: center;
+  padding: 100px 200px;
+  border-radius: 20px;
   
 
 }
@@ -218,6 +270,9 @@ ul{
   width:20px
 }
 
+.chat-icon{
+  width: 20px;
+}
 
 
 
