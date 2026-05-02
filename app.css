@@ -254,6 +254,10 @@ span{
 .navbar{
   
   height: var(--nav-height);
+  display: flex;
+}
+.nav-btn-container{
+  display: flex;
 }
 /* ------ HERO SECTION ------ */
 
